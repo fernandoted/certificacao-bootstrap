@@ -1,0 +1,28 @@
+{
+  "name": "certificacao-bootstrap",
+  "version": "1.0.0",
+  "description": "bootstrap certification test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoted/certificacao-bootstrap.git"
+  },
+  "keywords": [
+    "test",
+    "bootstrap"
+  ],
+  "author": "Fernando Ted",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandoted/certificacao-bootstrap/issues"
+  },
+  "homepage": "https://github.com/fernandoted/certificacao-bootstrap#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

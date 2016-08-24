@@ -1,0 +1,76 @@
+/* Dashboard - Bootstrap Certification Test - Fernando Ted */
+
+
+
+.dashboard {
+	padding: 0;
+	margin-top: 5rem;
+	@extend .col-xs-12;
+	@extend .col-lg-8;
+	.dashboard-wrap {
+		width: 80%;
+		margin: 0 auto;
+		.title {
+			color: $gray;
+			float: left;
+			padding-left: 0;
+			padding-right: 0;
+			margin-bottom: 1.250rem;
+			@extend .col-xs-6;
+			
+			h1 {
+				font-size: 1.2rem;
+			}
+		}
+		
+		.btn-prev-next {
+			padding-left: 0;
+			padding-right: 0;
+			float: right;
+			
+			@extend .col-xs-4;
+			
+			.wrap-btn-prev-next {
+				background-color: $right-content-background-color;
+				border-radius: 3px;
+				border: .5px solid #EEEEEE;
+				padding: 5px 10px;
+				float: right;
+				.btn-prev, .btn-next {
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+				.btn-prev {
+					color: #C1D2DA;
+				}
+				.btn-next {
+					color: #7A93AE;
+				}
+			}
+		}
+		
+		.dashboard-graphics-wrap {
+			padding-bottom: 3.125rem;
+			.dashboard-graphic {
+				margin-bottom: 2.5rem;
+				.graphic-img {
+					margin: 0 auto;
+					@extend .img-fluid;
+				}
+			}
+			@media(min-width: map-get($grid-breakpoints,lg)){
+				.dashboard-graphic {
+					margin-bottom: 1rem;
+					.graphic-img {
+						padding-top: 2rem;
+					}
+				}
+			}
+		}
+		@media(min-width: map-get($grid-breakpoints,lg)){
+			.dashboard-graphics-wrap {
+				padding-bottom: 0;
+			}
+		}
+	}
+}

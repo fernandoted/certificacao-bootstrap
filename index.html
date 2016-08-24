@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+	<title>Certificação Bootstrap - Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="-UA-Compatble" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+
+<body>
+
+    <div class="top-bar clearfix">
+        <nav>
+            <div class="main-menu">
+            <div class="logo-wrap">
+                <img class="logo" src="dist/img/logo-wave.png" alt="logo" title="logo">
+            </div>
+                <button class=" navbar-toggler hidden-md-up menu-bars" type="button" data-toggle="collapse" data-target="#menu-dropdown-itens" aria-controls="#menu-dropdown-itens" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <div id="menu-dropdown-itens" class="main-menu-wrap collapse navbar-toggleable-sm">
+                    <ul class="main-menu-list">
+                        <li class="main-menu-item"><a class="main-menu-link" href="#">Clouds</a></li>
+                        <li class="main-menu-item"><a class="main-menu-link" href="#">Apps</a></li>
+                        <li class="main-menu-item active"><a class="main-menu-link open-off" href="#">Stats</a></li>
+                        <li class="main-menu-item"><a class="main-menu-link" href="#">Users</a></li>
+                    </ul>
+                </div> <!-- menu-dropdown-itens end -->
+            </div> <!-- main-menu end -->
+        </nav>
+        
+        <div class="menu-adm nav nav-inline">
+            <a class="menu-adm-item" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="menu-adm-item" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
+            <a class="menu-adm-item" href="#"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+            <a class="menu-adm-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+        </div>
+    </div> <!-- top-bar end -->
+
+	<!-- left bar menu -->
+    <div class="offcanvas">
+        <ul class="offcanvas-list">
+            <li class="offcanvas-item"><a class="active offcanvas-link" href="#"><i class="fa fa-compass" aria-hidden="true"></i></a></li>
+            <li class="offcanvas-item"><a class="offcanvas-link" href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            <li class="offcanvas-item"><a class="offcanvas-link" href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></li>
+            <li class="offcanvas-item"><a class="offcanvas-link" href="#"><i class="fa fa-calendar" aria-hidden="true"></i></a></li>
+            <li class="offcanvas-item"><a class="offcanvas-link" href="#"><i class="fa fa-file-o" aria-hidden="true"></i></a></li>
+            <li class="offcanvas-item"><a class="offcanvas-link" href="#"><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+            <li class="offcanvas-item"><a class="offcanvas-link" href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a></li>
+        </ul>
+        <!-- avatar -->
+        <div class="avatar-wrap">
+            <img class="avatar-image" src="dist/img/avatar.png" alt="avatar image" title="avatar image">
+        </div>
+    </div> <!-- offcanvas -->
+
+	<!-- dashboards info -->
+    <section>
+        <div class="dashboard">
+            <div class="dashboard-wrap">
+            <!-- title and buttons -->
+                <div class="title">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="btn-prev-next">
+                    <div class="wrap-btn-prev-next">
+                        <a class="btn-prev" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                        <a class="btn-next" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <!-- graphic 1 -->
+                <div class="dashboard-graphics-wrap">
+                    <div class="dashboard-graphic">
+                        <img class="graphic-img" src="dist/img/graph-1-wrapper.png" alt="graphic 1" title="graphic 1">
+                    </div>
+                    <!-- graphic 2 -->
+                    <div class="dashboard-graphic">
+                        <img class="graphic-img" src="dist/img/graph-2-wrapper.png" alt="graphic 2" title="graphic 2">
+                    </div>
+                </div> <!-- dashboard-graphics end -->
+            </div> <!-- dashboard-wrap end -->
+        </div> <!-- dashboard end -->
+    </section>
+
+    <!-- right bar -->
+	<!-- three graphics -->
+    <article>
+        <div class="wrap-right-content">
+            <div class="tab-wrap">
+                <i class="fa fa-bars tab-icon"></i>
+            </div>
+            <div class="info-wrap">
+                <div class="info-box clearfix">
+                    <p class="bar-title">1.6 TB / 2 TB</p>
+                    <img class="icon-bar" src="dist/img/server-icon.png" alt="server icon" title="server icon">
+                    <progress class="progress progress-info" value="65" max="100"></progress>
+                </div>
+                <div class="info-box clearfix">
+                    <p class="bar-title">12 Sales per Hour</p>
+                    <img class="icon-bar" src="dist/img/tags-icon.png" alt="tags icon" title="tags icon">
+                    <progress class="progress progress-sales" value="40" max="100"></progress>
+                </div>
+                <div class="info-box clearfix">
+                    <p class="bar-title">44,142 / 50.000</p>
+                    <img class="icon-bar" src="dist/img/users-icon.png" alt="users icon" title="users icon">
+                    <progress class="progress progress-users" value="90" max="100"></progress>
+                </div>
+            </div>
+            <!-- two graphics -->
+            <div class="mobile-graphics clearfix">
+                <div class="visitors clearfix">
+                    <div class="visitors-infos">
+                        <p class="visitors-quantity">21,780</p>
+                        <p class="visitors-label">Total visitors</p>
+                    </div>
+                    <div class="visitors-graphic-wrap">
+                        <img class="visitors-graphic" src="dist/img/total-visitors-graphic.png" alt="total visitors" title="total visitors">
+                    </div>
+                </div>
+                <div class="visitors clearfix">
+                    <div class="visitors-infos">
+                        <p class="mobile-quantity">3,211</p>
+                        <p class="visitors-label">Mobile visitors</p>
+                    </div>
+                    <div class="visitors-graphic-wrap">
+                        <div class="iphone-graphic-wrap clearfix">
+                            <img class="iphone-graphic" src="dist/img/iphone.png" alt="iphone" title="iphone">
+                            <p class="iphone-graphic-label">iPhone</p>
+                        </div>
+                        <div class="android-graphic-wrap">
+                            <img class="iphone-graphic" src="dist/img/android.png" alt="android" title="android">
+                            <p class="iphone-graphic-label">Android</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- mobile-graphics end -->
+        </div> <!-- right bar end -->
+    </article>
+
+	<script src="dist/js/jquery.js"></script>
+    <script src="dist/js/jquery.mobile.custom.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>

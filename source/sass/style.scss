@@ -1,0 +1,23 @@
+/* Stylesheet - Bootstrap Certification Test - Fernando Ted */
+
+
+@import "../components/bootstrap/scss/bootstrap.scss";
+@import "../components/components-font-awesome/scss/font-awesome.scss";
+@import "variables";
+@import "top-bar";
+@import "offcanvas";
+@import "dashboard";
+@import "right-content";
+
+body {
+	background-color: $white;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+

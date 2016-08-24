@@ -1,0 +1,78 @@
+/* Offcanvas - Bootstrap Certification Test - Fernando Ted */
+
+.offcanvas {
+	width: 3.125rem;
+	height: 100%;
+	position: fixed;
+	left: -3.125rem;
+	top: 3.125rem;
+	padding: 0;
+	background-color: $bg-left-bar;
+	-webkit-transition: left .2s;
+	transition: left .2s;
+	z-index: 2;
+	
+	.offcanvas-list {
+		padding-left: 0;
+		margin-top: 1rem;
+		text-align: center;
+		
+		.offcanvas-item {
+			padding: 5px 0;
+			font-size: 1.2rem;
+			width: 100%;
+			
+			.offcanvas-link {
+				color: $offcanvas-link-color;
+			}
+			.offcanvas-link:active, .offcanvas-link:hover {
+				color: $white;
+			}
+		}
+	}
+	.avatar-wrap {
+		position: absolute;
+		bottom: 4rem;
+		left: .5rem;
+		.avatar-image {
+			width: 80%;
+		}
+	}
+}
+
+.open-offcanvas {
+	&:after {
+		content: "";
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+	.offcanvas {
+	left: 0;
+	}
+}
+
+@media(orientation:landscape){
+	.offcanvas {
+		.offcanvas-list {
+			.offcanvas-item {
+				padding: 2px 0;
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+@media(min-width: map-get($grid-breakpoints,lg)){
+	.offcanvas {
+		left: 0;
+		.offcanvas-list {
+			.offcanvas-item {
+				padding: 5px 0;
+				font-size: 1.2rem;
+			}
+		}
+	}
+}

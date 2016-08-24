@@ -1,0 +1,25 @@
+{
+  "name": "certificacao-bootstrap",
+  "description": "bootstrap certification test",
+  "main": "index.js",
+  "authors": [
+    "Fernando Ted"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "test",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/fernandoted/certificacao-bootstrap",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.6.3",
+    "bootstrap": "v4.0.0-alpha.3"
+  }
+}
