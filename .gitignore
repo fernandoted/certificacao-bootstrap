@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ﻿# all files in source/components 
 source/components
 
 #node_modules
 node_modules/
+=======
+node_modules
+source/components
+>>>>>>> 450b3fcf46100ba4e16d30d193ba9f3b4ac42d05
