@@ -1,5 +1,2 @@
-﻿# all files in source/components 
 source/components
-
-#node_modules
-node_modules/
+node_modules
